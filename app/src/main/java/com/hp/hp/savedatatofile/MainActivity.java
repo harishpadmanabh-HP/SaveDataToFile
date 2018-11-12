@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         } catch (java.io.IOException e) {
 
             //do something if an IOException occurs.
-            Toast.makeText(this, "ERROR - Text co added", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Check permission ERROR - Text co added", Toast.LENGTH_LONG).show();
         }
     }
 }
